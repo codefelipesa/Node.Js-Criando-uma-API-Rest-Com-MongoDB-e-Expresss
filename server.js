@@ -5,7 +5,9 @@ import http from "http"
 const PORT = 3000 // Porta padrão ultilizada
 
 const rotas = { 
-    "/":"Express com Mongo DB" // Ao acessar a URL base, ele vai exibir o valor da chave
+    "/":"Te Amo meu amooooooooooor !!!!!!", // Ao acessar a URL base, ele vai exibir o valor da chave
+    "/express":"Express ", // Ao acessar a URL base, ele vai exibir o valor da chave
+    "/mongoDB":"Mongo DB" // Ao acessar a URL base, ele vai exibir o valor da chave
 }
 
 const server = http.createServer((req,res)=>{
@@ -14,8 +16,7 @@ const server = http.createServer((req,res)=>{
 })
 
 server.listen(PORT, ()=> {
-    console.log("Tá na escuta pâe")
-    console.log (req, res)
+    console.log("Voxe é meu mozinhoooooooo")
 
 })
 
